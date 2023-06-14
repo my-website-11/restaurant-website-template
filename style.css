@@ -1,0 +1,125 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; Bodoni MT; Californian FB;
+}
+
+body {
+  font-family: Californian FB;
+}
+
+div h1 {
+  font-size: 120px;
+  font-family: Bodoni MT;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+p, h2, p {
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+body {
+  background-image: url('https://www.trbimg.com/img-5b8f2874/turbine/sd-et-dining-inside-out-20180801');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/* Global styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.menu-item {
+    flex-basis: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.menu-item img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 25px;
+    background-color: #f2f2f2;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2{
+  font-size: 45px;
+}
+
+div ul li {
+  list-style-type: none;
+}
+
+ul li {
+  font-family: arial;
+  color: black;
+  font-size: 25px;
+  background-color: #f2f2f2;
+}
